@@ -42,6 +42,10 @@ p {
     background-color: var(--creme);
 }
 
+img > .imgIntro {
+    max-width: 50%;
+}
+
 figure {
     display: flex;
     flex-direction: row;
@@ -83,7 +87,7 @@ figure > .joker1 {
     flex-direction: column;
 }
 
-#b > .texte-b {
+#b > figcaption {
     color: var(--creme);
     
 }
@@ -133,4 +137,19 @@ figure > .joker3 {
     border: 2px solid;
     border-color: var(--bleufonce);
     border-radius: 20px;
+}
+
+.artSuiv > button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: var(--font-quote);
+    font-size: var(--tweet);
+    background-color: var(--rouge);
+    border: none;
+    border-radius: 50px;
+}
+
+.artSuiv > button > a{
+    text-decoration: none;
+    color: var(--creme);
 }

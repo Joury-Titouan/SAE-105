@@ -8,6 +8,7 @@ body {
     font-family: var(--font-standard);
     font-size: var(--body);
     line-height: 1.6;
+    background-color: var(--bleufonce);
 }
 
 h1 {
@@ -30,16 +31,106 @@ h3 {
     line-height: 1.4;
 }
 
-small-text {
+p {
     font-family: var(--font-standard);
     line-height: 1.4;
 }
 
-button {
-    -webkit-appearance: none;
-    appearance: none;
+#a {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--creme);
+}
+
+figure {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+figure > .joker1 {
+    max-width: 50%;
+    height: auto;
+    border: 2px solid ;
+    border-radius: 20px;
+    border-color: var(--bleufonce);
+}
+
+#a > h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#a > button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: var(--font-quote);
+    font-size: var(--tweet);
+    background-color: var(--rouge);
     border: none;
-    background: none;
-    padding: 0;
-    cursor: pointer;
-  }
+    border-radius: 50px;
+
+}
+
+#a > button > a{
+    text-decoration: none;
+    color: var(--creme);
+}
+
+#b {
+    background-color: var(--bleufonce);
+    display: flex;
+    flex-direction: column;
+}
+
+#b > .texte-b {
+    color: var(--creme);
+    
+}
+
+figure > .main {
+    display: flex;
+    flex-direction: row;
+}
+
+#b > button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: var(--font-quote);
+    font-size: var(--tweet);
+    background-color: var(--rouge);
+    border: none;
+    border-radius: 50px;
+}
+
+#b > button > a{
+    text-decoration: none;
+    color: var(--creme);
+}
+
+#c {
+    background-color: var(--vert);
+    display: flex;
+    flex-direction: column;
+}
+
+#c > button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: var(--font-quote);
+    font-size: var(--tweet);
+    background-color: var(--rouge);
+    border: none;
+    border-radius: 50px;
+}
+
+#c > button > a{
+    text-decoration: none;
+    color: var(--creme);
+}
+    
+figure > .joker3 {
+    border: 2px solid;
+    border-color: var(--bleufonce);
+    border-radius: 20px;
+}

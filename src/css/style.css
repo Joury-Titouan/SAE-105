@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Oswald&family=Poppins:wght@300&display=swap');
+@import url('../../src/css/vendors/normalize.css');
+@import url('../../src/css/utils/variables.css');
+@import url('../../src/css/base/main.css');
+@import url('../../src/css/layout/header.css');
+@import url('../../src/css/layout/footer.css');
+@import url('../../src/css/layout/body.css');
+@import url('../../src/css/components/menu.css');

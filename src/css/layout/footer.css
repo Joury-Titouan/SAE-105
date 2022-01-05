@@ -1,0 +1,13 @@
+.footer {
+    width: 100%;
+    background-color: var(--bleumarine);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footerText {
+    color: var(--beige);
+}

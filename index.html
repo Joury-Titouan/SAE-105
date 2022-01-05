@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="src/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joker</title>
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+</head>
+<body>
+    <header class="header">
+
+        <div class="header__end">
+
+        <!-- Bouton menu -->
+            <button class="header__menu-btn menu-btn"
+                    @click="menuIsOpen = !menuIsOpen"
+                    :class="menuIsOpen && 'menu-btn--open'">
+                <span class="menu-btn__bar"></span>
+            </button>
+
+        <!-- Menu principal -->
+            <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'">
+                <ul class="menu__list list-unstyled">
+                    <li class="menu__item"><a class="menu__link" href="index.html">Accueil</a></li>
+                    <li class="menu__item"><a class="menu__link" href="joker.html">Qui est le Joker ?</a></li>
+                    <li class="menu__item"><a class="menu__link" href="maquillage.html">Le maquillage dangereux ?</a></li>
+                    <li class="menu__item"><a class="menu__link" href="solution.html">Une solution</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">À Propos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="galerie.html">Galerie</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <h1>
+            Le Joker prend-il soin de sa peau ?
+        </h1>
+
+        <section>
+            <h2>Un teint pâle, des cheveux verdâtres, un sourire glaçant et un rire cynique</h2>
+
+            <figure>
+                <img src="assets/img/image2.png" alt="Le Joker">
+                <figcaption>
+                    Cette description peu élogieuse est celle du personnage parfois considéré comme 
+                    le deuxième plus grand méchant de l'historie de tous les Comics.
+                </figcaption>
+            </figure>
+
+            <button><a href="joker.html">Qui est-il ?</a></button>
+        </section>
+        <section>
+            <h2>Le Joker est en danger</h2>
+            <p>Il existe une facette encore plus sombre du Joker : le maquillage.</p>
+            <p>Le visage du Joker aurait bien besoin d'un petit changement d'habitude.</p>
+            <button><a href="maquillage.html">Le maquillage dangereux ?</a></button>
+        </section>
+
+        <section>
+            <h2>Comment le sauver ?</h2>
+            <img src="assets/img/image3.jpg" alt="Le Joker tenant un joker">
+            <p>La santé du Joker est mise en jeu. Une solution doit vite être trouvée.</p>
+            <button><a href="solution.html">Une alternative au maquillage ?</a></button>
+        </section>
+
+        <section>
+            <p class="footerText">Projet réalisé dans le cadre d'un exercice pédagogique, au département MMI de Montbéliard</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <button><a class="footerText" href="index.html">Accueil</a></button>
+        <button class="footerText">À propos</button>
+        <button ><a class="footerText" href="galerie.html">Galerie</a></button>
+        <button class="footerText">Navigation</button>
+        <a href="http://www.instagram.com"><img src="assets/img/trace9.png" alt="Instagram"></a>
+        <a href="http://www.facebook.com"><img src="assets/img/trace12.png" alt="Facebook"></a>
+        <a href="http://www.twitter.com"><img src="assets/img/trace8.png" alt="Twitter"></a>
+    </footer>
+</body>
+</html>

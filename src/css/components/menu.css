@@ -1,0 +1,86 @@
+/* Pour l'instant on cache le menu */
+.menu {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--bleufonce);
+    font-size: var(--tweet);
+    transform: translateX(100%);
+    transition: all .8s ease;
+  }
+  
+  .menu--open {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .menu__list {
+    margin-top: 25vh;
+    margin-left: 15vw;
+  }
+  
+  .menu__item {
+    margin-top: 10%;
+  }
+  
+  .menu__link {
+    color: var(--beige);
+    text-decoration: none;
+  }
+  
+  /* Mise en forme du bouton de menu "Hamburger" */
+  .menu-btn {
+    position: relative;
+    z-index: 3;
+    width: 30px;  
+  }
+  
+  .menu-btn__bar,
+  .menu-btn__bar::before,
+  .menu-btn__bar::after {
+    content: '';
+    background: var(--beige);
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    transition: all .8s ease;
+  }
+  
+  .menu-btn__bar::before {
+    top: -10px;
+  }
+  
+  .menu-btn__bar::after {
+    top: 10px;
+  }
+  
+  .menu-btn--open .menu-btn__bar,
+  .menu-btn--open .menu-btn__bar::before,
+  .menu-btn--open .menu-btn__bar::after {
+    transform: rotate(135deg);
+  }
+  
+  .menu-btn--open .menu-btn__bar::before,
+  .menu-btn--open .menu-btn__bar::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  
+  .header--atTop .menu-btn .menu-btn__bar,
+  .header--atTop .menu-btn .menu-btn__bar::before,
+  .header--atTop .menu-btn .menu-btn__bar::after {
+    background: var(--beige);
+  }
+  
+  .header--atTop .menu-btn--open .menu-btn__bar,
+  .header--atTop .menu-btn--open .menu-btn__bar::before,
+  .header--atTop .menu-btn--open .menu-btn__bar::after {
+    background: var(--beige);
+  }

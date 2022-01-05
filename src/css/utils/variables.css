@@ -1,0 +1,30 @@
+:root {
+
+    /* Color styles */
+    --bleufonce: rgba(24, 27, 55, 1);
+    --bleumarine: rgba(13, 14, 28, 1);
+    --beige: rgba(226, 211, 210, 1);
+    --creme: rgba(235, 232, 225, 1);
+    --rouge: rgba(218, 103, 78, 1);
+    --vert: rgba(122, 173, 158, 1);
+    
+    /* Text-size styles */
+    --h1: 48px;
+    --body: 16px;
+    --h2: 38px;
+    --h3: 30px;
+    --tweet: 18px;
+    --small-text: 11px;
+    
+    /* Font familly styles */
+    --font-title: 'Londrina Solid', 'cursive';
+    --font-standard: 'Poppins', 'sans-serif';
+    --font-quote: 'Oswald', 'sans-serif';
+
+    /* Espaces */
+    --space1x: 8px;
+    --space2x: 16px;
+    --space3x: 24px;
+    --space4x: 48px;
+
+    }

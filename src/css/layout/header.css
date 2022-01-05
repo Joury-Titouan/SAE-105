@@ -1,0 +1,25 @@
+.header {
+    width: 100%;
+    position: fixed;
+    background-color: var(--bleufonce);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.headerTitre {
+    font-size: var(--h1);
+    color: var(--creme);
+    display: flex;
+    justify-content: center;
+}
+
+.header__end {
+    display: flex;
+}
+
+.header--atTop {
+    background-color: var(--creme);
+}
